@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ED8B399058F6EF05A65536A5C17B22 /* rapidsnark_bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2C5296400919908AC6079211FA4913 /* rapidsnark_bridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153471FDFAF478BAA5D3FC184D7945FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2D1595D8594F4340E9EBEE1D1707868E /* rapidsnark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1424C1AA266FD2130D11C55F468F022 /* rapidsnark-dummy.m */; };
+		375B71136B888FA2E93A896C31FB2F1E /* C-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4210EB918E22662999D500FB9FDD9339 /* C-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A544242E24149A0FD43B28335E2ADF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4EC8879BAB41626C1901BA246CCAA1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61409249BBFD54EA77F8A229916196C7 /* rapidsnark_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = A57FE2E4C141668A7D8496E3653B2357 /* rapidsnark_bridge.c */; };
+		6473CFECD0AEC3A1F984A2E4A3B890B8 /* WitnessGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF024110136435D75F2FCBAB0044087 /* WitnessGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE4E46848D65915D4CAB107E8961504 /* Pods-WitnessGraph_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C33A4339417703FD26D38208B0F5A06A /* Pods-WitnessGraph_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B893BAC97AF9E497E975F104BA4D6849 /* WitnessGraph_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 29F80C1D704EC1C6FC364FCB6A204BC0 /* WitnessGraph_bridge.c */; };
+		CBC33298AF8F41DE8C4B4469F0A33E36 /* Pods-WitnessGraph_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B6C885312F2FF24893BB23E767EAE /* Pods-WitnessGraph_Example-dummy.m */; };
+		D05D2E725929EA34B8968B2E285564EE /* WitnessGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A946B75376A81F705F83B47FCA7B6B /* WitnessGraph-dummy.m */; };
+		E5454E02FEEA1B9854CECBDB228B7011 /* rapidsnark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DAE29E1007B73563D58C709FEA57636 /* rapidsnark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E606F4649B921D39B6A5A3563EF0E1BD /* WitnessGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C34FBEAAF312D6D0359F75C47825D9 /* WitnessGraph.swift */; };
+		F8E6435AD14CCDC56BF1D8F3AF2A302E /* WitnessGraph_bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D747BE6E27E6D24460BA578CE9EA79DA /* WitnessGraph_bridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC02DE8B1B50CB2DC40C20D28063DA35 /* rapidsnark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AE73248D352AE73FA2FDB69F991BD /* rapidsnark.swift */; };
+		FFF931A97D276AD72B6427D7E803A728 /* C-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8677A8EE96521EF92BB03DE0484D7E /* C-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		084FDBFD8F9F0C66221B6EC5EEBE0916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E1864098FD9FE5BE43BBD2B3C4923CE;
+			remoteInfo = rapidsnark;
+		};
+		42EBA7E52C123CAF0B92775C84B2E3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37AAE51A3EB7BCC9D2D05012FF4D2843;
+			remoteInfo = WitnessGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041DF58A2ADC68C02BADA65811672B79 /* WitnessGraph-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WitnessGraph-Info.plist"; sourceTree = "<group>"; };
+		087609C010D34C3B4C240844B217FBF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		090F47ACC0CD4EA708DB89C85D3A29EB /* rapidsnark-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "rapidsnark-xcframeworks.sh"; sourceTree = "<group>"; };
+		12EB6046D7855B83A78D71F3A7C8CFB3 /* rapidsnark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rapidsnark.debug.xcconfig; sourceTree = "<group>"; };
+		16CE40EB533E63FD184EB50C5A2CC5F5 /* Pods-WitnessGraph_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WitnessGraph_Example-Info.plist"; sourceTree = "<group>"; };
+		1D2C5296400919908AC6079211FA4913 /* rapidsnark_bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rapidsnark_bridge.h; sourceTree = "<group>"; };
+		29F80C1D704EC1C6FC364FCB6A204BC0 /* WitnessGraph_bridge.c */ = {isa = PBXFileReference; includeInIndex = 1; name = WitnessGraph_bridge.c; path = Sources/C/WitnessGraph_bridge.c; sourceTree = "<group>"; };
+		2AF024110136435D75F2FCBAB0044087 /* WitnessGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WitnessGraph-umbrella.h"; sourceTree = "<group>"; };
+		3AD53D15645C9737354BDA836E6E80A9 /* Pods-WitnessGraph_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WitnessGraph_Example"; path = Pods_WitnessGraph_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49AE05E1CA87DD232C9719B82A49E5 /* Pods-WitnessGraph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WitnessGraph_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4210EB918E22662999D500FB9FDD9339 /* C-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "C-Bridging-Header.h"; sourceTree = "<group>"; };
+		433EE8BEF041EBA5784F49E00A43E51B /* WitnessGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WitnessGraph.debug.xcconfig; sourceTree = "<group>"; };
+		47FFD25753B2B8A5A4A481893F8E6597 /* Pods-WitnessGraph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WitnessGraph_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49F4B033BE260BDAB970CCDF07283D30 /* rapidsnark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rapidsnark.release.xcconfig; sourceTree = "<group>"; };
+		4B8677A8EE96521EF92BB03DE0484D7E /* C-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "C-Bridging-Header.h"; sourceTree = "<group>"; };
+		531EAFBBE0CB3A6AC6CBA24539D64F34 /* WitnessGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WitnessGraph-prefix.pch"; sourceTree = "<group>"; };
+		5A9EF2FEC6B0773B5812F6EC1ED7EA4F /* WitnessGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WitnessGraph.modulemap; sourceTree = "<group>"; };
+		5B626CD2E69BDAFCC491F388AABB289E /* WitnessGraph.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WitnessGraph.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		608B4E243ED9D7C40F6B17FB4734D399 /* rapidsnark-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "rapidsnark-Info.plist"; sourceTree = "<group>"; };
+		6DAE29E1007B73563D58C709FEA57636 /* rapidsnark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rapidsnark-umbrella.h"; sourceTree = "<group>"; };
+		6E2AE73248D352AE73FA2FDB69F991BD /* rapidsnark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = rapidsnark.swift; path = Sources/rapidsnark/rapidsnark.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77C34FBEAAF312D6D0359F75C47825D9 /* WitnessGraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WitnessGraph.swift; path = Sources/WitnessGraph/WitnessGraph.swift; sourceTree = "<group>"; };
+		79B6B4D78168A39BBF2E230C60208008 /* WitnessGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WitnessGraph.release.xcconfig; sourceTree = "<group>"; };
+		7CF57993DB1069E2DA55DBD0B9347BFD /* WitnessGraph */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WitnessGraph; path = WitnessGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A946B75376A81F705F83B47FCA7B6B /* WitnessGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WitnessGraph-dummy.m"; sourceTree = "<group>"; };
+		8BA2ED5FA06769386737051C9900E8F6 /* rapidsnark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = rapidsnark.modulemap; sourceTree = "<group>"; };
+		8D5919D4F74286CD4D4CA38DEB6C7D08 /* WitnessGraph-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "WitnessGraph-xcframeworks.sh"; sourceTree = "<group>"; };
+		919EB6B2E84443C50A207037C68130AA /* Rapidsnark.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Rapidsnark.xcframework; path = Libs/Rapidsnark.xcframework; sourceTree = "<group>"; };
+		92878D084F07AD9F7EFDBD2AC3E037CF /* rapidsnark */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rapidsnark; path = rapidsnark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9334C573872FAD6061951E5FD40AAC11 /* rapidsnark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rapidsnark-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57FE2E4C141668A7D8496E3653B2357 /* rapidsnark_bridge.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rapidsnark_bridge.c; path = Sources/C/rapidsnark_bridge.c; sourceTree = "<group>"; };
+		AE4F2BC91B47DCB59D5A00A74A2BA89C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1424C1AA266FD2130D11C55F468F022 /* rapidsnark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "rapidsnark-dummy.m"; sourceTree = "<group>"; };
+		B5A0EB98127ED0035E079A8A9CCDF3BC /* Pods-WitnessGraph_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WitnessGraph_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B6E9FFD23A6205FA349404539A61C653 /* Pods-WitnessGraph_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WitnessGraph_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1A41F00A5AF5F850B16727F65E4A141 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C33A4339417703FD26D38208B0F5A06A /* Pods-WitnessGraph_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WitnessGraph_Example-umbrella.h"; sourceTree = "<group>"; };
+		C80B6C885312F2FF24893BB23E767EAE /* Pods-WitnessGraph_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WitnessGraph_Example-dummy.m"; sourceTree = "<group>"; };
+		D4EDF8F58503E0412E3778DA187FCDCE /* rapidsnark.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = rapidsnark.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6D988116CC6ED959B60050248F4D7C3 /* Pods-WitnessGraph_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WitnessGraph_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D747BE6E27E6D24460BA578CE9EA79DA /* WitnessGraph_bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WitnessGraph_bridge.h; sourceTree = "<group>"; };
+		DA34A2D5E39D3D06E103CCCD173F96CC /* Pods-WitnessGraph_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WitnessGraph_Example.modulemap"; sourceTree = "<group>"; };
+		E733B1AB78D8DBE5227CBF1FA7D41210 /* libwitness.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libwitness.xcframework; path = Libs/libwitness.xcframework; sourceTree = "<group>"; };
+		E7CBF2A3F937973D72C19344942F42FA /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; path = COPYING; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2896B5824DD58A5C72FCEBCD751A82F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC8879BAB41626C1901BA246CCAA1D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B832BFA8000539948277D207415969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153471FDFAF478BAA5D3FC184D7945FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F6EDA73FBF18F81B018077D43E87CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A544242E24149A0FD43B28335E2ADF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1564B60DA03044C5F48A1CD4D970E50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919EB6B2E84443C50A207037C68130AA /* Rapidsnark.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2025333E131A5C5838AD73DF668161B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9EF2FEC6B0773B5812F6EC1ED7EA4F /* WitnessGraph.modulemap */,
+				87A946B75376A81F705F83B47FCA7B6B /* WitnessGraph-dummy.m */,
+				041DF58A2ADC68C02BADA65811672B79 /* WitnessGraph-Info.plist */,
+				531EAFBBE0CB3A6AC6CBA24539D64F34 /* WitnessGraph-prefix.pch */,
+				2AF024110136435D75F2FCBAB0044087 /* WitnessGraph-umbrella.h */,
+				8D5919D4F74286CD4D4CA38DEB6C7D08 /* WitnessGraph-xcframeworks.sh */,
+				433EE8BEF041EBA5784F49E00A43E51B /* WitnessGraph.debug.xcconfig */,
+				79B6B4D78168A39BBF2E230C60208008 /* WitnessGraph.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WitnessGraph";
+			sourceTree = "<group>";
+		};
+		436D277116589824481CC3793A27AB0D /* WitnessGraph */ = {
+			isa = PBXGroup;
+			children = (
+				77C34FBEAAF312D6D0359F75C47825D9 /* WitnessGraph.swift */,
+			);
+			name = WitnessGraph;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		625E6BA92995BCC2CB1E92551B28F70C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7CBF2A3F937973D72C19344942F42FA /* COPYING */,
+				D4EDF8F58503E0412E3778DA187FCDCE /* rapidsnark.podspec */,
+				C1A41F00A5AF5F850B16727F65E4A141 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6BDE1993CCAE3968F9CB0A7059DBA402 /* rapidsnark */ = {
+			isa = PBXGroup;
+			children = (
+				6E2AE73248D352AE73FA2FDB69F991BD /* rapidsnark.swift */,
+			);
+			name = rapidsnark;
+			sourceTree = "<group>";
+		};
+		6DBEB1B2AA48097D8BBD62D1A6E66F52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6385DF5C4B3B097B07188A6E769C083 /* rapidsnark */,
+				9B4E064806C1BCECDD5F06C2A0A067C9 /* WitnessGraph */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F4C833752B6B7E19FBC4686C6F9A825 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4B8677A8EE96521EF92BB03DE0484D7E /* C-Bridging-Header.h */,
+				D747BE6E27E6D24460BA578CE9EA79DA /* WitnessGraph_bridge.h */,
+			);
+			name = include;
+			path = Sources/C/include;
+			sourceTree = "<group>";
+		};
+		71D15301268317F1FE86B9E006836F81 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4210EB918E22662999D500FB9FDD9339 /* C-Bridging-Header.h */,
+				1D2C5296400919908AC6079211FA4913 /* rapidsnark_bridge.h */,
+			);
+			name = include;
+			path = Sources/C/include;
+			sourceTree = "<group>";
+		};
+		73305A60C196472B37E5272053884C7A /* Pods-WitnessGraph_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA34A2D5E39D3D06E103CCCD173F96CC /* Pods-WitnessGraph_Example.modulemap */,
+				B6E9FFD23A6205FA349404539A61C653 /* Pods-WitnessGraph_Example-acknowledgements.markdown */,
+				D6D988116CC6ED959B60050248F4D7C3 /* Pods-WitnessGraph_Example-acknowledgements.plist */,
+				C80B6C885312F2FF24893BB23E767EAE /* Pods-WitnessGraph_Example-dummy.m */,
+				B5A0EB98127ED0035E079A8A9CCDF3BC /* Pods-WitnessGraph_Example-frameworks.sh */,
+				16CE40EB533E63FD184EB50C5A2CC5F5 /* Pods-WitnessGraph_Example-Info.plist */,
+				C33A4339417703FD26D38208B0F5A06A /* Pods-WitnessGraph_Example-umbrella.h */,
+				47FFD25753B2B8A5A4A481893F8E6597 /* Pods-WitnessGraph_Example.debug.xcconfig */,
+				3F49AE05E1CA87DD232C9719B82A49E5 /* Pods-WitnessGraph_Example.release.xcconfig */,
+			);
+			name = "Pods-WitnessGraph_Example";
+			path = "Target Support Files/Pods-WitnessGraph_Example";
+			sourceTree = "<group>";
+		};
+		98B5401FDDBDB73B23F3F9232B19E133 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				29F80C1D704EC1C6FC364FCB6A204BC0 /* WitnessGraph_bridge.c */,
+				EF0465727ADCE77880B500058E748033 /* Frameworks */,
+				6F4C833752B6B7E19FBC4686C6F9A825 /* include */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		9B4E064806C1BCECDD5F06C2A0A067C9 /* WitnessGraph */ = {
+			isa = PBXGroup;
+			children = (
+				98B5401FDDBDB73B23F3F9232B19E133 /* C */,
+				9C5F1CCDAE6B11F8A6CF93B6D6F13D54 /* Pod */,
+				2025333E131A5C5838AD73DF668161B3 /* Support Files */,
+				436D277116589824481CC3793A27AB0D /* WitnessGraph */,
+			);
+			name = WitnessGraph;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9C5F1CCDAE6B11F8A6CF93B6D6F13D54 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F2BC91B47DCB59D5A00A74A2BA89C /* LICENSE */,
+				087609C010D34C3B4C240844B217FBF9 /* README.md */,
+				5B626CD2E69BDAFCC491F388AABB289E /* WitnessGraph.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F2B788C85507C0E85AAD49499E7AC74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73305A60C196472B37E5272053884C7A /* Pods-WitnessGraph_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6385DF5C4B3B097B07188A6E769C083 /* rapidsnark */ = {
+			isa = PBXGroup;
+			children = (
+				EA829AA05247877A34C2EB5AFD8285C7 /* C */,
+				625E6BA92995BCC2CB1E92551B28F70C /* Pod */,
+				6BDE1993CCAE3968F9CB0A7059DBA402 /* rapidsnark */,
+				E84B59656A3755C5D1DF963FB421274B /* Support Files */,
+			);
+			name = rapidsnark;
+			path = "../../../rapidsnark-ios";
+			sourceTree = "<group>";
+		};
+		B6E5C7EBABD55ECC035C4422EA3EF53D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD53D15645C9737354BDA836E6E80A9 /* Pods-WitnessGraph_Example */,
+				92878D084F07AD9F7EFDBD2AC3E037CF /* rapidsnark */,
+				7CF57993DB1069E2DA55DBD0B9347BFD /* WitnessGraph */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6DBEB1B2AA48097D8BBD62D1A6E66F52 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B6E5C7EBABD55ECC035C4422EA3EF53D /* Products */,
+				9F2B788C85507C0E85AAD49499E7AC74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84B59656A3755C5D1DF963FB421274B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2ED5FA06769386737051C9900E8F6 /* rapidsnark.modulemap */,
+				B1424C1AA266FD2130D11C55F468F022 /* rapidsnark-dummy.m */,
+				608B4E243ED9D7C40F6B17FB4734D399 /* rapidsnark-Info.plist */,
+				9334C573872FAD6061951E5FD40AAC11 /* rapidsnark-prefix.pch */,
+				6DAE29E1007B73563D58C709FEA57636 /* rapidsnark-umbrella.h */,
+				090F47ACC0CD4EA708DB89C85D3A29EB /* rapidsnark-xcframeworks.sh */,
+				12EB6046D7855B83A78D71F3A7C8CFB3 /* rapidsnark.debug.xcconfig */,
+				49F4B033BE260BDAB970CCDF07283D30 /* rapidsnark.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../WitnessGraph/Example/Pods/Target Support Files/rapidsnark";
+			sourceTree = "<group>";
+		};
+		EA829AA05247877A34C2EB5AFD8285C7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A57FE2E4C141668A7D8496E3653B2357 /* rapidsnark_bridge.c */,
+				1564B60DA03044C5F48A1CD4D970E50E /* Frameworks */,
+				71D15301268317F1FE86B9E006836F81 /* include */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		EF0465727ADCE77880B500058E748033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E733B1AB78D8DBE5227CBF1FA7D41210 /* libwitness.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2272183C40653937AA9D51CBA318F932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE4E46848D65915D4CAB107E8961504 /* Pods-WitnessGraph_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8846B05BF859E1D56109B9A72798D780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF931A97D276AD72B6427D7E803A728 /* C-Bridging-Header.h in Headers */,
+				6473CFECD0AEC3A1F984A2E4A3B890B8 /* WitnessGraph-umbrella.h in Headers */,
+				F8E6435AD14CCDC56BF1D8F3AF2A302E /* WitnessGraph_bridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D561F08660856D1F4B3110574A7375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375B71136B888FA2E93A896C31FB2F1E /* C-Bridging-Header.h in Headers */,
+				E5454E02FEEA1B9854CECBDB228B7011 /* rapidsnark-umbrella.h in Headers */,
+				05ED8B399058F6EF05A65536A5C17B22 /* rapidsnark_bridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E1864098FD9FE5BE43BBD2B3C4923CE /* rapidsnark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C70B9B9F1FC9232D3673450378A1878 /* Build configuration list for PBXNativeTarget "rapidsnark" */;
+			buildPhases = (
+				98D561F08660856D1F4B3110574A7375 /* Headers */,
+				21BC80B1CCE199601DC70C2725317C21 /* [CP] Copy XCFrameworks */,
+				68CCAA5D7D76E9F9E2B336BC8635E63E /* Sources */,
+				2896B5824DD58A5C72FCEBCD751A82F4 /* Frameworks */,
+				4F35071951DEB7FE758DBA37D79E0808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rapidsnark;
+			productName = rapidsnark;
+			productReference = 92878D084F07AD9F7EFDBD2AC3E037CF /* rapidsnark */;
+			productType = "com.apple.product-type.framework";
+		};
+		37AAE51A3EB7BCC9D2D05012FF4D2843 /* WitnessGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF05BF4E0B6CB9D5D33FAC3705ADD5E /* Build configuration list for PBXNativeTarget "WitnessGraph" */;
+			buildPhases = (
+				8846B05BF859E1D56109B9A72798D780 /* Headers */,
+				714B92884CDA0AD4F1249E82369E211C /* [CP] Copy XCFrameworks */,
+				6917381A546F4305E196284E5A1A2488 /* Sources */,
+				C5F6EDA73FBF18F81B018077D43E87CB /* Frameworks */,
+				4DCD5281E4BE84A819DA295F3CB133DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WitnessGraph;
+			productName = WitnessGraph;
+			productReference = 7CF57993DB1069E2DA55DBD0B9347BFD /* WitnessGraph */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C6CE03A7A883D19771B2CE3250FB6FB /* Pods-WitnessGraph_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE486563C935F5F6E2FF63FEF9602FFC /* Build configuration list for PBXNativeTarget "Pods-WitnessGraph_Example" */;
+			buildPhases = (
+				2272183C40653937AA9D51CBA318F932 /* Headers */,
+				4229829D86BDDB7692DDE0565BB71F60 /* Sources */,
+				32B832BFA8000539948277D207415969 /* Frameworks */,
+				294954EB820CC16D06AF6ED0FA20F5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11BC970BF0C4B4AC9AF193DDC95A485E /* PBXTargetDependency */,
+				82D9F74CF99346347D9FAAFA18E30B63 /* PBXTargetDependency */,
+			);
+			name = "Pods-WitnessGraph_Example";
+			productName = Pods_WitnessGraph_Example;
+			productReference = 3AD53D15645C9737354BDA836E6E80A9 /* Pods-WitnessGraph_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B6E5C7EBABD55ECC035C4422EA3EF53D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6CE03A7A883D19771B2CE3250FB6FB /* Pods-WitnessGraph_Example */,
+				1E1864098FD9FE5BE43BBD2B3C4923CE /* rapidsnark */,
+				37AAE51A3EB7BCC9D2D05012FF4D2843 /* WitnessGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		294954EB820CC16D06AF6ED0FA20F5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD5281E4BE84A819DA295F3CB133DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F35071951DEB7FE758DBA37D79E0808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21BC80B1CCE199601DC70C2725317C21 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/rapidsnark/rapidsnark-xcframeworks.sh",
+				"${PODS_ROOT}/../../../rapidsnark-ios/Libs/Rapidsnark.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/rapidsnark/C/Rapidsnark.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/rapidsnark/rapidsnark-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714B92884CDA0AD4F1249E82369E211C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/WitnessGraph/WitnessGraph-xcframeworks.sh",
+				"${PODS_ROOT}/../../Libs/libwitness.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/WitnessGraph/C/libwitness.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/WitnessGraph/WitnessGraph-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4229829D86BDDB7692DDE0565BB71F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC33298AF8F41DE8C4B4469F0A33E36 /* Pods-WitnessGraph_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CCAA5D7D76E9F9E2B336BC8635E63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC02DE8B1B50CB2DC40C20D28063DA35 /* rapidsnark.swift in Sources */,
+				2D1595D8594F4340E9EBEE1D1707868E /* rapidsnark-dummy.m in Sources */,
+				61409249BBFD54EA77F8A229916196C7 /* rapidsnark_bridge.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6917381A546F4305E196284E5A1A2488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E606F4649B921D39B6A5A3563EF0E1BD /* WitnessGraph.swift in Sources */,
+				D05D2E725929EA34B8968B2E285564EE /* WitnessGraph-dummy.m in Sources */,
+				B893BAC97AF9E497E975F104BA4D6849 /* WitnessGraph_bridge.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11BC970BF0C4B4AC9AF193DDC95A485E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WitnessGraph;
+			target = 37AAE51A3EB7BCC9D2D05012FF4D2843 /* WitnessGraph */;
+			targetProxy = 42EBA7E52C123CAF0B92775C84B2E3D7 /* PBXContainerItemProxy */;
+		};
+		82D9F74CF99346347D9FAAFA18E30B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = rapidsnark;
+			target = 1E1864098FD9FE5BE43BBD2B3C4923CE /* rapidsnark */;
+			targetProxy = 084FDBFD8F9F0C66221B6EC5EEBE0916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DCEFF7AEDCA267B77CFC69CEC8010EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EB6046D7855B83A78D71F3A7C8CFB3 /* rapidsnark.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/rapidsnark/rapidsnark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rapidsnark/rapidsnark-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/rapidsnark/rapidsnark.modulemap";
+				PRODUCT_MODULE_NAME = rapidsnark;
+				PRODUCT_NAME = rapidsnark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A30166714AA83F0DF7716160BFB1A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433EE8BEF041EBA5784F49E00A43E51B /* WitnessGraph.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WitnessGraph/WitnessGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WitnessGraph/WitnessGraph-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WitnessGraph/WitnessGraph.modulemap";
+				PRODUCT_MODULE_NAME = WitnessGraph;
+				PRODUCT_NAME = WitnessGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F2EB0E5D68EA6F8F392748369AC1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B6B4D78168A39BBF2E230C60208008 /* WitnessGraph.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WitnessGraph/WitnessGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WitnessGraph/WitnessGraph-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WitnessGraph/WitnessGraph.modulemap";
+				PRODUCT_MODULE_NAME = WitnessGraph;
+				PRODUCT_NAME = WitnessGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0074CE498500DC5B9F545B458B26939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F49AE05E1CA87DD232C9719B82A49E5 /* Pods-WitnessGraph_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E715D36789624896DA83030B165A2067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FFD25753B2B8A5A4A481893F8E6597 /* Pods-WitnessGraph_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEC2ACD1B8E11CADC94A37E77D421B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F4B033BE260BDAB970CCDF07283D30 /* rapidsnark.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/rapidsnark/rapidsnark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/rapidsnark/rapidsnark-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/rapidsnark/rapidsnark.modulemap";
+				PRODUCT_MODULE_NAME = rapidsnark;
+				PRODUCT_NAME = rapidsnark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C70B9B9F1FC9232D3673450378A1878 /* Build configuration list for PBXNativeTarget "rapidsnark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCEFF7AEDCA267B77CFC69CEC8010EF /* Debug */,
+				FEC2ACD1B8E11CADC94A37E77D421B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EF05BF4E0B6CB9D5D33FAC3705ADD5E /* Build configuration list for PBXNativeTarget "WitnessGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A30166714AA83F0DF7716160BFB1A84 /* Debug */,
+				4F2EB0E5D68EA6F8F392748369AC1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE486563C935F5F6E2FF63FEF9602FFC /* Build configuration list for PBXNativeTarget "Pods-WitnessGraph_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E715D36789624896DA83030B165A2067 /* Debug */,
+				A0074CE498500DC5B9F545B458B26939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

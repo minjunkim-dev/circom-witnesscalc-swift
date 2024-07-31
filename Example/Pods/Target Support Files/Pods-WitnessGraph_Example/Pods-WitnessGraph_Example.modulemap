@@ -1,0 +1,6 @@
+framework module Pods_WitnessGraph_Example {
+  umbrella header "Pods-WitnessGraph_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
