@@ -4,80 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf54a888-d4ec-4845-a2cf-cc902c4852c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Podfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Local Podspecs/WitnessGraph.podspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Local Podspecs/rapidsnark.podspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Manifest.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-acknowledgements.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-acknowledgements.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-frameworks.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/Pods-WitnessGraph_Example/Pods-WitnessGraph_Example.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph-xcframeworks.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/WitnessGraph/WitnessGraph.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark-xcframeworks.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Pods/Target Support Files/rapidsnark/rapidsnark.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Tests/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/Tests/Tests.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph.xcodeproj/xcshareddata/xcschemes/WitnessGraph-Example.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/Base.lproj/LaunchScreen.xib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/ViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/authV2_inputs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/final.zkey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/WitnessGraph/graph_authV2.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/authV2.zkey" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/authV2_inputs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example/graph_authV2.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64-simulator/Headers/graph_witness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64-simulator/libwitness.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64/Headers/graph_witness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64/libwitness.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/C/WitnessGraph_bridge.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/C/include/C-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/C/include/WitnessGraph_bridge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WitnessGraph.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/build_xcframework_merged.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/headers/graph_witness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libs_ios/libwitness.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libs_sim/libwitness.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64-simulator/Headers/graph_witness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64-simulator/libwitness.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64/Headers/graph_witness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64/libwitness.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Package.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/WitnessGraph/WitnessGraph.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/WitnessGraph/WitnessGraph.swift" afterDir="false" />
+    <list default="true" id="bf54a888-d4ec-4845-a2cf-cc902c4852c1" name="Changes" comment="Initial version.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/libwitness.xcframework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64-simulator/libwitness.a" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64-simulator/libwitness.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64/libwitness.a" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64/libwitness.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xcframework/libs_ios/libwitness.a" beforeDir="false" afterPath="$PROJECT_DIR$/xcframework/libs_ios/libwitness.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xcframework/libs_sim/libwitness.a" beforeDir="false" afterPath="$PROJECT_DIR$/xcframework/libs_sim/libwitness.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xcframework/libwitness.xcframework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64-simulator/libwitness.a" beforeDir="false" afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64-simulator/libwitness.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64/libwitness.a" beforeDir="false" afterPath="$PROJECT_DIR$/xcframework/libwitness.xcframework/ios-arm64/libwitness.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,28 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/moria/development/projects/WitnessGraph/xcframework/libs_ios&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/moria/development/projects/WitnessGraph/xcframework/libs_ios",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xcframework/libs_ios" />
       <recent name="$PROJECT_DIR$/xcframework/libs_sim" />
+      <recent name="$PROJECT_DIR$/dynamic" />
       <recent name="$PROJECT_DIR$/xcframework/headers" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Libs/libwitness.xcframework/ios-arm64-simulator" />
     </key>
   </component>
   <component name="SharedIndexes">

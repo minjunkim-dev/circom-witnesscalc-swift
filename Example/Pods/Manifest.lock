@@ -1,8 +1,8 @@
 PODS:
-  - rapidsnark (0.0.1-alpha.4):
-    - rapidsnark/rapidsnark (= 0.0.1-alpha.4)
-  - rapidsnark/C (0.0.1-alpha.4)
-  - rapidsnark/rapidsnark (0.0.1-alpha.4):
+  - rapidsnark (0.0.1-alpha.5):
+    - rapidsnark/rapidsnark (= 0.0.1-alpha.5)
+  - rapidsnark/C (0.0.1-alpha.5)
+  - rapidsnark/rapidsnark (0.0.1-alpha.5):
     - rapidsnark/C
   - WitnessGraph (0.0.1-alpha.1):
     - WitnessGraph/WitnessGraph (= 0.0.1-alpha.1)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  rapidsnark: 6cd5f2e7a91ffc8eff9cf43827d34425f72086a3
+  rapidsnark: 4e70fa2f70e3b0846a0c1bf94a635113f261ada9
   WitnessGraph: 885a57d9beddb073a438e9b7932ffc425861ad2d
 
 PODFILE CHECKSUM: da57a42857e2f68147ff1e1eda25030a01342d93
