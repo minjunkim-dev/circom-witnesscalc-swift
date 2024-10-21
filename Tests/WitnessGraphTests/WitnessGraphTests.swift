@@ -1,7 +1,7 @@
 import XCTest
-@testable import WitnessGraph
+@testable import CircomWitnesscalc
 
-final class WitnessGraphTests: XCTestCase {
+final class CircomWitnesscalcTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

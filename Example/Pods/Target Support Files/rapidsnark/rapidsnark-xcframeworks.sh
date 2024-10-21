@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../../rapidsnark-ios/Libs/Rapidsnark.xcframework" "rapidsnark/C" "library" "ios-arm64" "ios-arm64_arm64e_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/rapidsnark/Libs/Rapidsnark.xcframework" "rapidsnark/C" "library" "ios-arm64" "ios-arm64_arm64e_x86_64-simulator"
 

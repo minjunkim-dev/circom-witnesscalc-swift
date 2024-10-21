@@ -1,9 +1,9 @@
 {
-  "name": "WitnessGraph",
+  "name": "CircomWitnesscalc",
   "version": "0.0.1-alpha.1",
-  "summary": "A short description of WitnessGraph.",
+  "summary": "A short description of CircomWitnesscalc.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/iden3/WitnessGraph",
+  "homepage": "https://github.com/iden3/CircomWitnesscalc",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Yaroslav Moria": "5eeman@users.noreply.github.com"
   },
   "source": {
-    "git": "https://github.com/Yaroslav Moria/WitnessGraph.git",
+    "git": "https://github.com/Yaroslav Moria/CircomWitnesscalc.git",
     "tag": "0.0.1-alpha.1"
   },
   "platforms": {
@@ -29,7 +29,7 @@
     "ONLY_ACTIVE_ARCH": "YES",
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   },
-  "default_subspecs": "WitnessGraph",
+  "default_subspecs": "CircomWitnesscalc",
   "subspecs": [
     {
       "name": "C",
@@ -40,16 +40,16 @@
       }
     },
     {
-      "name": "WitnessGraph",
-      "source_files": "Sources/WitnessGraph/**/*",
+      "name": "CircomWitnesscalc",
+      "source_files": "Sources/CircomWitnesscalc/**/*",
       "dependencies": {
-        "WitnessGraph/C": [
+        "CircomWitnesscalc/C": [
 
         ]
       },
       "ios": {
         "dependencies": {
-          "WitnessGraph/C": [
+          "CircomWitnesscalc/C": [
 
           ]
         }

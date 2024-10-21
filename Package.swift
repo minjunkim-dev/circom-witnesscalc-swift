@@ -4,24 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "WitnessGraph",
+    name: "CircomWitnesscalc",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "WitnessGraph",
-            targets: ["WitnessGraph"]),
+            name: "CircomWitnesscalc",
+            targets: ["CircomWitnesscalc"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "WitnessGraph",
+            name: "CircomWitnesscalc",
             dependencies: ["C"],
-            path: "Sources/WitnessGraph",
-            sources: ["WitnessGraph.swift"]
+            path: "Sources/CircomWitnesscalc",
+            sources: ["CircomWitnesscalc.swift"]
         ),
         .target(
             name: "C",
@@ -31,7 +31,7 @@ let package = Package(
             name: "libwitness",
             path: "Libs/libwitness.xcframework"),
         .testTarget(
-            name: "WitnessGraphTests",
-            dependencies: ["WitnessGraph"])
+            name: "CircomWitnesscalcTests",
+            dependencies: ["CircomWitnesscalc"])
     ]
 )

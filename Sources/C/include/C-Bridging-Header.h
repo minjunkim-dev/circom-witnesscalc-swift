@@ -10,4 +10,4 @@
 
 #endif /* Header_h */
 
-#import "WitnessGraph_bridge.h"
+#import "CircomWitnesscalc_bridge.h"

@@ -1,29 +1,31 @@
 PODS:
+  - CircomWitnesscalc (0.0.1-alpha.1):
+    - CircomWitnesscalc/CircomWitnesscalc (= 0.0.1-alpha.1)
+  - CircomWitnesscalc/C (0.0.1-alpha.1)
+  - CircomWitnesscalc/CircomWitnesscalc (0.0.1-alpha.1):
+    - CircomWitnesscalc/C
   - rapidsnark (0.0.1-alpha.5):
     - rapidsnark/rapidsnark (= 0.0.1-alpha.5)
   - rapidsnark/C (0.0.1-alpha.5)
   - rapidsnark/rapidsnark (0.0.1-alpha.5):
     - rapidsnark/C
-  - WitnessGraph (0.0.1-alpha.1):
-    - WitnessGraph/WitnessGraph (= 0.0.1-alpha.1)
-  - WitnessGraph/C (0.0.1-alpha.1)
-  - WitnessGraph/WitnessGraph (0.0.1-alpha.1):
-    - WitnessGraph/C
 
 DEPENDENCIES:
-  - rapidsnark (from `../../rapidsnark-ios`)
-  - WitnessGraph (from `../`)
+  - CircomWitnesscalc (from `../`)
+  - rapidsnark (= 0.0.1-alpha.5)
+
+SPEC REPOS:
+  trunk:
+    - rapidsnark
 
 EXTERNAL SOURCES:
-  rapidsnark:
-    :path: "../../rapidsnark-ios"
-  WitnessGraph:
+  CircomWitnesscalc:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CircomWitnesscalc: 0d5d7ecfaf7b278b6f9d67ad03e58fa830e5c493
   rapidsnark: 4e70fa2f70e3b0846a0c1bf94a635113f261ada9
-  WitnessGraph: 885a57d9beddb073a438e9b7932ffc425861ad2d
 
-PODFILE CHECKSUM: da57a42857e2f68147ff1e1eda25030a01342d93
+PODFILE CHECKSUM: 3b6a746d3bc7657344d8b8e6c6e9c80c06d1f4b5
 
 COCOAPODS: 1.15.2
