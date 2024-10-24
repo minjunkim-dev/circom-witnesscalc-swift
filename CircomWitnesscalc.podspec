@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'CircomWitnesscalc is a library to calculate witness files.'
   s.description      = <<-DESC
 CircomWitnesscalc is a library to calculate witness files for zero knowledge proofs, written in Rust.
-It accepts inputs and graph file for specific circuit to calculate witness file.
+It accepts inputs and graph file .wcd for specific circuit to calculate witness file.
                        DESC
   s.homepage         = 'https://github.com/iden3/circom-witnesscalc-swift'
   s.license          = { :type => 'MIT & Apache License, Version 2.0', :file => 'LICENSE-APACHE.txt' }
