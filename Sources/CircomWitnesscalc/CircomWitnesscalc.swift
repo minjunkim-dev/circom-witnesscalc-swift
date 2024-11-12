@@ -35,14 +35,12 @@ public func calculateWitness(
 //    }
 
     // Call the CircomWitnesscalc C++ library function to perform the Groth16 proof
-    let statusCode = 0;
-    
-//    let statusCode = gw_calc_witness(
-//        inputsBuf,
-//        graphBuf, graph.count,
-//        witnessPointer, witnessLenPointer,
-//        nil
-//    );
+    let statusCode = gw_calc_witness(
+        inputsBuf,
+        graphBuf, graph.count,
+        witnessPointer, witnessLenPointer,
+        statusPointer
+    );
 
     let witness = witnessPointer.pointee
     let witnessLength = witnessLenPointer.pointee
@@ -55,14 +53,13 @@ public func calculateWitness(
 
         return Data(buffer: witnessBufferPointer)
     }
-    return Data()
 
-//    guard let msg = statusPointer.pointee.error_msg else {
-//        throw WitnessCalcError(message: "Unknown error")
-//    }
-//    let msgString = String(cString: msg)
+    guard let msg = statusPointer.pointee.error_msg else {
+        throw WitnessCalcError(message: "Unknown error")
+    }
+    let msgString = String(cString: msg)
 
-//    throw WitnessCalcError(message: msgString)
+    throw WitnessCalcError(message: msgString)
 }
 
 
