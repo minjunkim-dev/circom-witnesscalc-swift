@@ -12,6 +12,6 @@
 
 #include <stddef.h>
 
-#import "graph_witness.h"
+#import "libcircom_witnesscalc.h"
 
 void __dummy(void);

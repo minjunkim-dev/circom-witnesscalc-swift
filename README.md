@@ -1,6 +1,7 @@
 # CircomWitnesscalc
 
-[![CI Status](https://img.shields.io/travis/Yaroslav Moria/CircomWitnesscalc.svg?style=flat)](https://travis-ci.org/Yaroslav Moria/CircomWitnesscalc)
+[![CI Status](https://img.shields.io/travis/Yaroslav Moria/CircomWitnesscalc.svg?style=flat)](https://travis-ci.org/Yaroslav
+Moria/CircomWitnesscalc)
 [![Version](https://img.shields.io/cocoapods/v/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
 [![License](https://img.shields.io/cocoapods/l/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
 [![Platform](https://img.shields.io/cocoapods/p/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
@@ -26,4 +27,5 @@ Yaroslav Moria, 5eeman@users.noreply.github.com
 
 ## License
 
-CircomWitnesscalc is available under the MIT license. See the LICENSE file for more info.
+CircomWitnesscalc is part of the iden3 project and licensed under MIT and APACHE 2.0 licences. Please check
+the [LICENSE-MIT](./LICENSE-MIT.txt) and [LICENSE-APACHE](./LICENSE-APACHE.txt) files for more details.

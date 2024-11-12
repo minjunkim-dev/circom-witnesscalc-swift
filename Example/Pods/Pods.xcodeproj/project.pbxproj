@@ -55,37 +55,37 @@
 		2DB652E389A3EE093A77268F34CF1581 /* rapidsnark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = rapidsnark.swift; path = Sources/rapidsnark/rapidsnark.swift; sourceTree = "<group>"; };
 		2E1F6214F293F61BBD83E4AF6493D5EC /* CircomWitnesscalc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircomWitnesscalc-dummy.m"; sourceTree = "<group>"; };
 		2E3103950B0F99B54ABECE4D9CAA8CF7 /* CircomWitnesscalc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircomWitnesscalc-umbrella.h"; sourceTree = "<group>"; };
-		32269F0ED0C5C3B4CD49D9FD8AA4D6CA /* CircomWitnesscalc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CircomWitnesscalc.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		3A1448475EBAC509D438D6BE089E7287 /* Pods-CircomWitnesscalc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircomWitnesscalc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48456AC0A02F5058D34CA9AC043A7DB1 /* CircomWitnesscalc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CircomWitnesscalc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C03ADA9B5862CF35B3887EF8EB49693 /* CircomWitnesscalc-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CircomWitnesscalc-xcframeworks.sh"; sourceTree = "<group>"; };
 		534F639730A74D6E57DF3B6EE60F499F /* CircomWitnesscalc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircomWitnesscalc.swift; path = Sources/CircomWitnesscalc/CircomWitnesscalc.swift; sourceTree = "<group>"; };
 		58AB93251B742654A5D43341B8D6938E /* Pods-CircomWitnesscalc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircomWitnesscalc_Example-umbrella.h"; sourceTree = "<group>"; };
 		593A792C2B12F6C31EA3A243AE5355E7 /* CircomWitnesscalc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircomWitnesscalc-Info.plist"; sourceTree = "<group>"; };
 		6CD2A413EFA1E0B816A976C88295088E /* rapidsnark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = rapidsnark.modulemap; sourceTree = "<group>"; };
+		6EEE526DF75436B8DD90502E5F38EC83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B7634EB6059D7896417B1D92718F19 /* rapidsnark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "rapidsnark-prefix.pch"; sourceTree = "<group>"; };
 		85E949A6E9C1BDF3936D1D372870BBE7 /* Pods-CircomWitnesscalc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircomWitnesscalc_Example-frameworks.sh"; sourceTree = "<group>"; };
 		865C8A1BF552A7D068831AB3A321D5F4 /* rapidsnark_bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rapidsnark_bridge.h; path = Sources/C/include/rapidsnark_bridge.h; sourceTree = "<group>"; };
-		8B54B1D61639FF1C8E455A4016693A63 /* Rapidsnark.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = Rapidsnark.xcframework; path = Libs/Rapidsnark.xcframework; sourceTree = "<group>"; };
-		8DAD84925D6D5B624FFDF5BCFD26AF2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8B54B1D61639FF1C8E455A4016693A63 /* Rapidsnark.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Rapidsnark.xcframework; path = Libs/Rapidsnark.xcframework; sourceTree = "<group>"; };
+		915AF6DF67BE54D562629C6ACF471E3A /* LICENSE-APACHE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = "LICENSE-APACHE.txt"; sourceTree = "<group>"; };
 		92878D084F07AD9F7EFDBD2AC3E037CF /* rapidsnark */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = rapidsnark; path = rapidsnark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		953387E099EE14E055C89075C300DEB9 /* rapidsnark_bridge.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = rapidsnark_bridge.c; path = Sources/C/rapidsnark_bridge.c; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953387E099EE14E055C89075C300DEB9 /* rapidsnark_bridge.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rapidsnark_bridge.c; path = Sources/C/rapidsnark_bridge.c; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2443D68098F4A2327311D29002C38D1 /* CircomWitnesscalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircomWitnesscalc.debug.xcconfig; sourceTree = "<group>"; };
 		AA68DD1716678D82C1BD86C7AC10714D /* rapidsnark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rapidsnark.debug.xcconfig; sourceTree = "<group>"; };
 		AD5C3033565DF8730281CEEB79B556EB /* CircomWitnesscalc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircomWitnesscalc-prefix.pch"; sourceTree = "<group>"; };
-		AF09DFF0E4C2D8D9E5D39B0740D47891 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2D84FCBE4F52451927FB165E1E5866E /* rapidsnark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rapidsnark.release.xcconfig; sourceTree = "<group>"; };
 		B546D32655E6ADC1AB9FE8285769B148 /* C-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "C-Bridging-Header.h"; sourceTree = "<group>"; };
 		C056F0E8CC29ACC3B3C6860225209029 /* Pods-CircomWitnesscalc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircomWitnesscalc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2EB145EF01E834100E49DFA805C0573 /* CircomWitnesscalc_bridge.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = CircomWitnesscalc_bridge.c; path = Sources/C/CircomWitnesscalc_bridge.c; sourceTree = "<group>"; };
+		C2EB145EF01E834100E49DFA805C0573 /* CircomWitnesscalc_bridge.c */ = {isa = PBXFileReference; includeInIndex = 1; name = CircomWitnesscalc_bridge.c; path = Sources/C/CircomWitnesscalc_bridge.c; sourceTree = "<group>"; };
 		C394DE9903B488E003A65DF7598A2259 /* C-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "C-Bridging-Header.h"; path = "Sources/C/include/C-Bridging-Header.h"; sourceTree = "<group>"; };
 		C53C88975F71827756F2D413839D1CEE /* CircomWitnesscalc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircomWitnesscalc.modulemap; sourceTree = "<group>"; };
 		C76FB44AF6B5147F47251240D0707F64 /* Pods-CircomWitnesscalc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircomWitnesscalc_Example.modulemap"; sourceTree = "<group>"; };
 		D0AD502308D29DA36845ABC644BEACD3 /* Pods-CircomWitnesscalc_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CircomWitnesscalc_Example"; path = Pods_CircomWitnesscalc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC67B74E66AC7EEA89902B7A742916B /* libcircom_witnesscalc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libcircom_witnesscalc.xcframework; path = Libs/libcircom_witnesscalc.xcframework; sourceTree = "<group>"; };
 		E29EE4F4929EC22E7A2363F65970585B /* rapidsnark-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "rapidsnark-xcframeworks.sh"; sourceTree = "<group>"; };
 		EF5B008E4D139843FF991422A283B15C /* rapidsnark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "rapidsnark-dummy.m"; sourceTree = "<group>"; };
-		FB58D22B665FA4890847A32D3127C080 /* libwitness.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = libwitness.xcframework; path = Libs/libwitness.xcframework; sourceTree = "<group>"; };
 		FE41BD2730DC215BBEF90DD899D1145C /* Pods-CircomWitnesscalc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircomWitnesscalc_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,22 +127,22 @@
 			path = Sources/C/include;
 			sourceTree = "<group>";
 		};
+		2325E0F92E292637183353C00F9EA2A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				48456AC0A02F5058D34CA9AC043A7DB1 /* CircomWitnesscalc.podspec */,
+				915AF6DF67BE54D562629C6ACF471E3A /* LICENSE-APACHE.txt */,
+				6EEE526DF75436B8DD90502E5F38EC83 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		312045969071C3FB9107964C52CDD023 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				6D5E1DB7D58D1496092768F1E8EAEF8E /* CircomWitnesscalc */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		352DAE02E4FC21579335B9C51E3C9739 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				32269F0ED0C5C3B4CD49D9FD8AA4D6CA /* CircomWitnesscalc.podspec */,
-				8DAD84925D6D5B624FFDF5BCFD26AF2F /* LICENSE */,
-				AF09DFF0E4C2D8D9E5D39B0740D47891 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		44ACABF4ADAE87BEE9BF787A39B17091 /* Targets Support Files */ = {
@@ -157,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				C2EB145EF01E834100E49DFA805C0573 /* CircomWitnesscalc_bridge.c */,
-				F731ECDDF7E00B8ED8F447CA56DBC5C5 /* Frameworks */,
+				694B68EDBB0BDA1FE5C5D3B5108FB059 /* Frameworks */,
 				22ED5789A745D9D05686C2143BE392EE /* include */,
 			);
 			name = C;
@@ -180,6 +180,7 @@
 				6F37DB1A220DAFA35FB9E42F9E34A914 /* rapidsnark */,
 				F872CE7B90CBDD5E28A514CD191B9613 /* Support Files */,
 			);
+			name = rapidsnark;
 			path = rapidsnark;
 			sourceTree = "<group>";
 		};
@@ -191,12 +192,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		694B68EDBB0BDA1FE5C5D3B5108FB059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFC67B74E66AC7EEA89902B7A742916B /* libcircom_witnesscalc.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D5E1DB7D58D1496092768F1E8EAEF8E /* CircomWitnesscalc */ = {
 			isa = PBXGroup;
 			children = (
 				532DB625F5E0AEADF43DDCD66F9299BD /* C */,
 				8C94817E6006A82262BB59F8616C37FD /* CircomWitnesscalc */,
-				352DAE02E4FC21579335B9C51E3C9739 /* Pod */,
+				2325E0F92E292637183353C00F9EA2A2 /* Pod */,
 				F4D6DFCDE08F8048486ACEB63B97ACDF /* Support Files */,
 			);
 			name = CircomWitnesscalc;
@@ -299,14 +308,6 @@
 			path = "Example/Pods/Target Support Files/CircomWitnesscalc";
 			sourceTree = "<group>";
 		};
-		F731ECDDF7E00B8ED8F447CA56DBC5C5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FB58D22B665FA4890847A32D3127C080 /* libwitness.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F872CE7B90CBDD5E28A514CD191B9613 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,7 +382,7 @@
 			buildConfigurationList = 937AD4B658FC0CCED849588073CE2777 /* Build configuration list for PBXNativeTarget "CircomWitnesscalc" */;
 			buildPhases = (
 				23CB6CA7A23F2CA597AFCA6C7BCCC458 /* Headers */,
-				0A79A2DE027929426CEE876E9FEC4BB5 /* [CP] Copy XCFrameworks */,
+				3165EC41D77DED930888C0CBD9133DD0 /* [CP] Copy XCFrameworks */,
 				ED6CF53CB3816461969B819808559F78 /* Sources */,
 				BB7ECC02DF03590CE0EB3EBD4B747DBB /* Frameworks */,
 				C8EB5F7F817C346B7015FEB38CFDD04B /* Resources */,
@@ -469,24 +470,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A79A2DE027929426CEE876E9FEC4BB5 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/CircomWitnesscalc/CircomWitnesscalc-xcframeworks.sh",
-				"${PODS_ROOT}/../../Libs/libwitness.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CircomWitnesscalc/C/libwitness.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/CircomWitnesscalc/CircomWitnesscalc-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1523A391A2B372F657DDF369DA686A1E /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,6 +486,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/rapidsnark/rapidsnark-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3165EC41D77DED930888C0CBD9133DD0 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/CircomWitnesscalc/CircomWitnesscalc-xcframeworks.sh",
+				"${PODS_ROOT}/../../Libs/libcircom_witnesscalc.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/CircomWitnesscalc/C/libcircom_witnesscalc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CircomWitnesscalc/CircomWitnesscalc-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -772,7 +773,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

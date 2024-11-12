@@ -34,6 +34,7 @@
 		7CA4AFBD6FEF08938D1521E9 /* Pods_CircomWitnesscalc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircomWitnesscalc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6C7D1D2C59687500160A73 /* final.zkey */ = {isa = PBXFileReference; lastKnownFileType = file; path = final.zkey; sourceTree = "<group>"; };
 		8D6C7D202C59688500160A73 /* authV2_inputs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = authV2_inputs.json; sourceTree = "<group>"; };
+		8DCD367A2CD3CD7400B38182 /* CircomWitnesscalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircomWitnesscalc-Bridging-Header.h"; sourceTree = "<group>"; };
 		8DD2E5B92CC7E2F9003EAACD /* authV2.wcd */ = {isa = PBXFileReference; lastKnownFileType = file; name = authV2.wcd; path = "../../../../../Downloads/circom_witnesscalc 2/circuits/authV2.wcd"; sourceTree = "<group>"; };
 		E76A6D80EA8C024DFE204C68 /* Pods-CircomWitnesscalc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircomWitnesscalc_Example.debug.xcconfig"; path = "Target Support Files/Pods-CircomWitnesscalc_Example/Pods-CircomWitnesscalc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD7DD8056FFF44D51CEDD26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				8D6C7D1D2C59687500160A73 /* final.zkey */,
+				8DCD367A2CD3CD7400B38182 /* CircomWitnesscalc-Bridging-Header.h */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				8D6C7D202C59688500160A73 /* authV2_inputs.json */,
 				8DD2E5B92CC7E2F9003EAACD /* authV2.wcd */,
@@ -405,6 +407,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CircomWitnesscalc",
 				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = io.iden3.demo.CircomWitnesscalc;
@@ -430,6 +433,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CircomWitnesscalc",
 				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = io.iden3.demo.CircomWitnesscalc;

@@ -25,11 +25,11 @@ let package = Package(
         ),
         .target(
             name: "C",
-            dependencies: ["libwitness"],
+            dependencies: ["libcircom_witnesscalc"],
             path: "Sources/C"),
         .binaryTarget(
-            name: "libwitness",
-            path: "Libs/libwitness.xcframework"),
+            name: "libcircom_witnesscalc",
+            path: "Libs/libcircom_witnesscalc.xcframework"),
         .testTarget(
             name: "CircomWitnesscalcTests",
             dependencies: ["CircomWitnesscalc"])
