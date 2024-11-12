@@ -1,5 +1,5 @@
 //
-//  rapidsnark_bridge.h
+//  CircomWitnesscalc_bridge.h
 //
 //
 //  Created by Yaroslav Moria on 04.04.2024.
