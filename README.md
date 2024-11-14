@@ -1,15 +1,7 @@
 # CircomWitnesscalc
+⚠️ This repository is currently WIP and experimental ⚠️
 
-[![CI Status](https://img.shields.io/travis/Yaroslav Moria/CircomWitnesscalc.svg?style=flat)](https://travis-ci.org/Yaroslav
-Moria/CircomWitnesscalc)
-[![Version](https://img.shields.io/cocoapods/v/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
-[![License](https://img.shields.io/cocoapods/l/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
-[![Platform](https://img.shields.io/cocoapods/p/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
-
-CircomWitnesscalc is a library to calculate witness files for zero knowledge proofs, written in Rust.
-It accepts inputs and graph file .wcd for specific circuit to calculate witness file.
-
-Based on the [iden3/circom-witnesscalc](https://github.com/iden3/circom-witnesscalc) project.
+CircomWitnesscalc is an iOS wrapper for the [iden3/circom-witnesscalc](https://github.com/iden3/circom-witnesscalc) library
 
 ## Example
 
