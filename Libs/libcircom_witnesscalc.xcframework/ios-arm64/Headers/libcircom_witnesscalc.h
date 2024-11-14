@@ -4,6 +4,10 @@
 #ifndef RUST_GRAPH_WITNESS_H
 #define RUST_GRAPH_WITNESS_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef enum {
   OK = 0,
   ERROR = 1
@@ -26,5 +30,9 @@ gw_free_status(gw_status_t *status) {
 	free(status->error_msg);
   }
 }
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // RUST_GRAPH_WITNESS_H
