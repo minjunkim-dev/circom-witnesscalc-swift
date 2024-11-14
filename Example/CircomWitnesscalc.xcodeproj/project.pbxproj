@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		046114B2E81A48506EAD5F78 /* CircomWitnesscalc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CircomWitnesscalc.podspec; path = ../CircomWitnesscalc.podspec; sourceTree = "<group>"; };
+		046114B2E81A48506EAD5F78 /* CircomWitnesscalc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CircomWitnesscalc.podspec; path = ../CircomWitnesscalc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		125034A951AAE0198E6BD41D /* Pods-CircomWitnesscalc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircomWitnesscalc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CircomWitnesscalc_Tests/Pods-CircomWitnesscalc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		33B3DCCCC438AB8819D3C937 /* Pods-CircomWitnesscalc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircomWitnesscalc_Tests.release.xcconfig"; path = "Target Support Files/Pods-CircomWitnesscalc_Tests/Pods-CircomWitnesscalc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		463DF496A6D9F083555649C9 /* Pods-CircomWitnesscalc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircomWitnesscalc_Example.release.xcconfig"; path = "Target Support Files/Pods-CircomWitnesscalc_Example/Pods-CircomWitnesscalc_Example.release.xcconfig"; sourceTree = "<group>"; };

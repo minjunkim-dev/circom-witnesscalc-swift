@@ -6,7 +6,10 @@ Moria/CircomWitnesscalc)
 [![License](https://img.shields.io/cocoapods/l/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
 [![Platform](https://img.shields.io/cocoapods/p/CircomWitnesscalc.svg?style=flat)](https://cocoapods.org/pods/CircomWitnesscalc)
 
-iOS project for witness calculation based on the [iden3/circom-witnesscalc](https://github.com/iden3/circom-witnesscalc) project.
+CircomWitnesscalc is a library to calculate witness files for zero knowledge proofs, written in Rust.
+It accepts inputs and graph file .wcd for specific circuit to calculate witness file.
+
+Based on the [iden3/circom-witnesscalc](https://github.com/iden3/circom-witnesscalc) project.
 
 ## Example
 
@@ -14,7 +17,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-Works with iOS 12.0 and higher.
+Works with iOS 12.0 or macOS 11.0 and higher.
 
 ## Installation
 
