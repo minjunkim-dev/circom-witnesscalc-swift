@@ -27,6 +27,7 @@ It accepts inputs and graph file .wcd for specific circuit to calculate witness 
 
   s.subspec 'C' do |c|
     c.source_files = 'Sources/C/**/*'
+    c.public_header_files = 'Sources/C/include/*.h'
     c.vendored_frameworks = "Libs/libcircom_witnesscalc.xcframework"
   end
 
