@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CircomWitnesscalc: 9a936f4b6bb58fc533425a113cb14da20a3b2fd3
+  CircomWitnesscalc: ab1c844c5b8bae47c16b9df6bc286a9720d8a9a6
   rapidsnark: 4e70fa2f70e3b0846a0c1bf94a635113f261ada9
 
 PODFILE CHECKSUM: 3b6a746d3bc7657344d8b8e6c6e9c80c06d1f4b5
