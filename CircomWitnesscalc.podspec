@@ -29,12 +29,14 @@ It accepts inputs and graph file .wcd for specific circuit to calculate witness 
     c.source_files = 'Sources/C/**/*'
     c.vendored_frameworks = "Libs/libcircom_witnesscalc.xcframework"
     c.ios.vendored_frameworks = "Libs/libcircom_witnesscalc.xcframework"
+    c.macos.vendored_frameworks = "Libs/libcircom_witnesscalc.xcframework"
   end
 
   s.subspec 'CircomWitnesscalc' do |circomWitnesscalc|
     circomWitnesscalc.source_files = 'Sources/CircomWitnesscalc/**/*'
     circomWitnesscalc.dependency 'CircomWitnesscalc/C'
     circomWitnesscalc.ios.dependency 'CircomWitnesscalc/C'
+    circomWitnesscalc.macos.dependency 'CircomWitnesscalc/C'
   end
 
   s.default_subspec = 'CircomWitnesscalc'
