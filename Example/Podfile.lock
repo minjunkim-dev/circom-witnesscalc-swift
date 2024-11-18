@@ -1,8 +1,8 @@
 PODS:
-  - CircomWitnesscalc (0.0.1-alpha.1):
-    - CircomWitnesscalc/CircomWitnesscalc (= 0.0.1-alpha.1)
-  - CircomWitnesscalc/C (0.0.1-alpha.1)
-  - CircomWitnesscalc/CircomWitnesscalc (0.0.1-alpha.1):
+  - CircomWitnesscalc (0.0.1-alpha.2):
+    - CircomWitnesscalc/CircomWitnesscalc (= 0.0.1-alpha.2)
+  - CircomWitnesscalc/C (0.0.1-alpha.2)
+  - CircomWitnesscalc/CircomWitnesscalc (0.0.1-alpha.2):
     - CircomWitnesscalc/C
   - rapidsnark (0.0.1-alpha.5):
     - rapidsnark/rapidsnark (= 0.0.1-alpha.5)
@@ -23,9 +23,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CircomWitnesscalc: edca52741cd33e1912e4dd34054bbf85a8ef124d
+  CircomWitnesscalc: 77ebed71f7c5001e1a9e45c406904e9417bbe68b
   rapidsnark: 4e70fa2f70e3b0846a0c1bf94a635113f261ada9
 
 PODFILE CHECKSUM: 3b6a746d3bc7657344d8b8e6c6e9c80c06d1f4b5
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

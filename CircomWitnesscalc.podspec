@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CircomWitnesscalc'
-  s.version          = '0.0.1-alpha.1'
+  s.version          = '0.0.1-alpha.2'
   s.summary          = 'CircomWitnesscalc is a library to calculate witness files.'
   s.description      = <<-DESC
 CircomWitnesscalc is a library to calculate witness files for zero knowledge proofs, written in Rust.
