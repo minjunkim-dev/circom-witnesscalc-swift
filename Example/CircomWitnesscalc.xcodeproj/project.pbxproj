@@ -12,7 +12,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		8D6C7D212C59688500160A73 /* authV2_inputs.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C7D202C59688500160A73 /* authV2_inputs.json */; };
+		8DBDBC352CED116100B1E4E9 /* authV2_verification_key.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DBDBC312CED112100B1E4E9 /* authV2_verification_key.json */; };
+		8DBDBC362CED116100B1E4E9 /* authV2.wcd in Resources */ = {isa = PBXBuildFile; fileRef = 8DBDBC322CED112100B1E4E9 /* authV2.wcd */; };
+		8DBDBC372CED116100B1E4E9 /* authV2_inputs.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DBDBC332CED112100B1E4E9 /* authV2_inputs.json */; };
+		8DBDBC382CED116100B1E4E9 /* authV2.zkey in Resources */ = {isa = PBXBuildFile; fileRef = 8DBDBC342CED112100B1E4E9 /* authV2.zkey */; };
 		E419A7EAE271F963A394149C /* Pods_CircomWitnesscalc_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA4AFBD6FEF08938D1521E9 /* Pods_CircomWitnesscalc_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +35,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7BC0715F7A98EBD332CAC2A0 /* Pods_CircomWitnesscalc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircomWitnesscalc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA4AFBD6FEF08938D1521E9 /* Pods_CircomWitnesscalc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircomWitnesscalc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D6C7D1D2C59687500160A73 /* final.zkey */ = {isa = PBXFileReference; lastKnownFileType = file; path = final.zkey; sourceTree = "<group>"; };
-		8D6C7D202C59688500160A73 /* authV2_inputs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = authV2_inputs.json; sourceTree = "<group>"; };
+		8DBDBC312CED112100B1E4E9 /* authV2_verification_key.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authV2_verification_key.json; sourceTree = "<group>"; };
+		8DBDBC322CED112100B1E4E9 /* authV2.wcd */ = {isa = PBXFileReference; lastKnownFileType = file; path = authV2.wcd; sourceTree = "<group>"; };
+		8DBDBC332CED112100B1E4E9 /* authV2_inputs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authV2_inputs.json; sourceTree = "<group>"; };
+		8DBDBC342CED112100B1E4E9 /* authV2.zkey */ = {isa = PBXFileReference; lastKnownFileType = file; path = authV2.zkey; sourceTree = "<group>"; };
 		8DCD367A2CD3CD7400B38182 /* CircomWitnesscalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircomWitnesscalc-Bridging-Header.h"; sourceTree = "<group>"; };
-		8DD2E5B92CC7E2F9003EAACD /* authV2.wcd */ = {isa = PBXFileReference; lastKnownFileType = file; name = authV2.wcd; path = "../../../../../Downloads/circom_witnesscalc 2/circuits/authV2.wcd"; sourceTree = "<group>"; };
 		E76A6D80EA8C024DFE204C68 /* Pods-CircomWitnesscalc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircomWitnesscalc_Example.debug.xcconfig"; path = "Target Support Files/Pods-CircomWitnesscalc_Example/Pods-CircomWitnesscalc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD7DD8056FFF44D51CEDD26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,10 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				8DBDBC312CED112100B1E4E9 /* authV2_verification_key.json */,
+				8DBDBC322CED112100B1E4E9 /* authV2.wcd */,
+				8DBDBC332CED112100B1E4E9 /* authV2_inputs.json */,
+				8DBDBC342CED112100B1E4E9 /* authV2.zkey */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CircomWitnesscalc */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -86,11 +94,8 @@
 		607FACD21AFB9204008FA782 /* Example for CircomWitnesscalc */ = {
 			isa = PBXGroup;
 			children = (
-				8D6C7D1D2C59687500160A73 /* final.zkey */,
 				8DCD367A2CD3CD7400B38182 /* CircomWitnesscalc-Bridging-Header.h */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				8D6C7D202C59688500160A73 /* authV2_inputs.json */,
-				8DD2E5B92CC7E2F9003EAACD /* authV2.wcd */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -208,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBDBC352CED116100B1E4E9 /* authV2_verification_key.json in Resources */,
+				8DBDBC362CED116100B1E4E9 /* authV2.wcd in Resources */,
+				8DBDBC372CED116100B1E4E9 /* authV2_inputs.json in Resources */,
+				8DBDBC382CED116100B1E4E9 /* authV2.zkey in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				8D6C7D212C59688500160A73 /* authV2_inputs.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
