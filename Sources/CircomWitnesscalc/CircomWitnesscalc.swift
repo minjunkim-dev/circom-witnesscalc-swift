@@ -1,5 +1,5 @@
-#if canImport(C)
-import C
+#if canImport(сircomWitnesscalcС)
+import сircomWitnesscalcС
 #endif
 
 import Darwin.C.string

@@ -1,0 +1,24 @@
+{
+  "originHash" : "8dfd37a6865648401e6e9c0883b1f7a1ee5e411577f1e0c445fc928e9e770233",
+  "pins" : [
+    {
+      "identity" : "ios-rapidsnark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iden3/ios-rapidsnark.git",
+      "state" : {
+        "revision" : "4623b43d46154f778d1152358ca69a2d62a40efe",
+        "version" : "0.0.1-alpha.5"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "02b6abe5f6eef7e3cbd5f247c5cc24e246efcfe0",
+        "version" : "0.9.19"
+      }
+    }
+  ],
+  "version" : 3
+}
