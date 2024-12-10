@@ -46,15 +46,22 @@ final class CircomWitnesscalcTests: XCTestCase {
     func testWitnessGeneration() throws {
         for circuitId in CircuitId.allCases {
             do {
+                let witnessGenerationStartTime = Date()
+                
                 let witness = try calculateWitness(
                     inputs: circuitId.inputs,
                     graph: circuitId.wcdGraph
                 )
                 
+                let witnessGenerationTime = Date().timeIntervalSince(witnessGenerationStartTime)
+                let proofGenerationStartTime = Date()
+                
                 let proof = try groth16ProveWithZKeyFilePath(
                     zkeyPath: circuitId.zkeyPath,
                     witness: witness
                 )
+                
+                let proofGenerationTime = Date().timeIntervalSince(proofGenerationStartTime)
                 
                 XCTAssertTrue(!proof.proof.isEmpty, "Proof is empty for " + circuitId.rawValue)
                 XCTAssertTrue(!proof.publicSignals.isEmpty, "Public signals are empty for " + circuitId.rawValue)
@@ -66,12 +73,15 @@ final class CircomWitnesscalcTests: XCTestCase {
                 )
                 
                 XCTAssertTrue(valid, "Proof is invalid for " + circuitId.rawValue)
+                
+                NSLog(
+                    "Test passed for: " + circuitId.rawValue + "\n" +
+                    "Proof generation time: \(proofGenerationTime)s, witness generation time: \(witnessGenerationTime)s"
+                )
             } catch let error as WitnessCalcError {
                 NSLog("Witness calculation test failed for: " + circuitId.rawValue + " proof and inputs:")
                 throw error
             }
-            
-            NSLog("Test passed for: " + circuitId.rawValue)
         }
     }
 }

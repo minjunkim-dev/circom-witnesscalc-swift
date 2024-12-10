@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/weichsel/ZIPFoundation.git", .upToNextMajor(from: "0.9.0")),
-        .package(url: "https://github.com/iden3/ios-rapidsnark.git", .upToNextMajor(from: "0.0.1-alpha.5")),
+        .package(url: "https://github.com/iden3/ios-rapidsnark.git", branch: "feature/integration_tests"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

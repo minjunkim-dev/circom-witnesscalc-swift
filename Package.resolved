@@ -1,13 +1,13 @@
 {
-  "originHash" : "8dfd37a6865648401e6e9c0883b1f7a1ee5e411577f1e0c445fc928e9e770233",
+  "originHash" : "0231b8d4fd7bfe0fe4e7fd9d6925cf6bde719216ea66012029f44549d64ae955",
   "pins" : [
     {
       "identity" : "ios-rapidsnark",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/iden3/ios-rapidsnark.git",
       "state" : {
-        "revision" : "4623b43d46154f778d1152358ca69a2d62a40efe",
-        "version" : "0.0.1-alpha.5"
+        "branch" : "feature/integration_tests",
+        "revision" : "04e58254e49900c427312e55322f2de661dd11bb"
       }
     },
     {

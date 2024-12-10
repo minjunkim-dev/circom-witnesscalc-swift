@@ -35,6 +35,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7BC0715F7A98EBD332CAC2A0 /* Pods_CircomWitnesscalc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircomWitnesscalc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA4AFBD6FEF08938D1521E9 /* Pods_CircomWitnesscalc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircomWitnesscalc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA208632D04D19C006E70A3 /* CircomWitnesscalc_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CircomWitnesscalc_Example.entitlements; sourceTree = "<group>"; };
 		8DBDBC312CED112100B1E4E9 /* authV2_verification_key.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authV2_verification_key.json; sourceTree = "<group>"; };
 		8DBDBC322CED112100B1E4E9 /* authV2.wcd */ = {isa = PBXFileReference; lastKnownFileType = file; path = authV2.wcd; sourceTree = "<group>"; };
 		8DBDBC332CED112100B1E4E9 /* authV2_inputs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authV2_inputs.json; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				8DA208632D04D19C006E70A3 /* CircomWitnesscalc_Example.entitlements */,
 				8DBDBC312CED112100B1E4E9 /* authV2_verification_key.json */,
 				8DBDBC322CED112100B1E4E9 /* authV2.wcd */,
 				8DBDBC332CED112100B1E4E9 /* authV2_inputs.json */,
@@ -406,6 +408,7 @@
 			baseConfigurationReference = E76A6D80EA8C024DFE204C68 /* Pods-CircomWitnesscalc_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CircomWitnesscalc_Example.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2U6UZ9UZP9;
@@ -432,6 +435,7 @@
 			baseConfigurationReference = 463DF496A6D9F083555649C9 /* Pods-CircomWitnesscalc_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CircomWitnesscalc_Example.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2U6UZ9UZP9;
