@@ -143,6 +143,14 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
     }
     
     @IBAction
+    public func selectVerificationKeyFile() {
+        pickedFileType = FileType.verificationKey
+        
+        let pickerViewController = filePicker(fileType: pickedFileType)
+        self.present(pickerViewController, animated: true, completion: nil)
+    }
+    
+    @IBAction
     public func generateWitness() {
         guard let presentInputs = inputs else {
             witnessLabel?.text = "No inputs present"
