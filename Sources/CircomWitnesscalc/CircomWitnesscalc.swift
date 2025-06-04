@@ -1,5 +1,5 @@
-#if canImport(сircomWitnesscalcС)
-import сircomWitnesscalcС
+#if canImport(circomWitnesscalcC)
+import circomWitnesscalcC
 #endif
 
 import Darwin.C.string
