@@ -1,0 +1,4 @@
+module circomWitnesscalcC {
+    umbrella "/Users/minjun.kim/s-pass-mobile-ios/Projects/circom-witnesscalc-swift/Sources/circomWitnesscalcC/include"
+    export *
+}
