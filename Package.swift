@@ -17,24 +17,27 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/weichsel/ZIPFoundation.git", .upToNextMajor(from: "0.9.0")),
-        .package(url: "https://github.com/iden3/ios-rapidsnark.git", branch: "feature/integration_tests"),
+        .package(url: "https://github.com/iden3/ios-rapidsnark.git", branch: "0.0.1-beta.2"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "CircomWitnesscalc",
-            dependencies: ["сircomWitnesscalcС"],
+            dependencies: ["circomWitnesscalcC"],
             path: "Sources/CircomWitnesscalc",
             sources: ["CircomWitnesscalc.swift"]
         ),
         .target(
-            name: "сircomWitnesscalcС",
+            name: "circomWitnesscalcC",
             dependencies: ["Libcircom_witnesscalc"],
-            path: "Sources/сircomWitnesscalcС"),
+            path: "Sources/circomWitnesscalcC",
+            publicHeadersPath: "include"
+        ),
         .binaryTarget(
             name: "Libcircom_witnesscalc",
-            path: "Libs/libcircom_witnesscalc.xcframework"),
+            path: "Libs/libcircom_witnesscalc.xcframework"
+        ),
         .testTarget(
             name: "CircomWitnesscalcTests",
             dependencies: [
